@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> <!-- meta information of the webpage, styling, and scripts goes here. -->
+        <title>My First Webpage</title> <!-- human-readable title that appears in the webpage's browser tab. defaults to the file name if not included. -->
+        <meta charset="UTF-8"> <!-- important for displaying special symbols and characters correctly -->
+    </head>
+    <body> <!-- the contents of the webpage the user sees goes here. -->
+        <h1>Homepage</h1>
+        <a>click me</a> <!-- anchor element. To create a link in HTML, we use the anchor element. An anchor element is defined by wrapping the text or another HTML element we want to be a link with a <a> tag.-->
+
+        <!-- clicking on the above anchor element doesn't do anything because the anchor element doesn't know what resource to retrieve. We need the href attribute to specify the destination the link points to. -->
+        
+        <!-- An HTML attribute gives additional information to an HTML element and always goes in the element’s opening tag. An attribute is made up of two parts, a name, and a value.  -->
+        
+        <a href="https://www.google.com">A link to google homepage</a> <!-- Absolute link to google homepage -->
+
+        <!-- Links to pages on other websites on the internet are called absolute links. A typical absolute link will be made up of the following parts: protocol://domain/path. -->
+
+        <!-- Links to other pages within our own website are called relative links. Relative links do not include the domain name, since it is another page on the same site, it assumes the domain name will be the same as the page we created the link on. -->
+
+        <!-- We want to organize our website directories better. Usually the index.html is in the root folder. All other html files are in their own directory. -->
+
+        <a href="./pages/about.html">A link to the about page</a> <!-- Relative link to the about page within our website -->
+
+        <br>
+        <br>
+
+        <!-- To display images we use the img element. The img element is empty. We use the attribute src to specify the path the image we are using. -->
+
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="Picture of The Odin Project Logo"> <!-- Absolute path to image -->
+
+        <br>
+        <br>
+
+        <img src="./images/dog.jpg" alt="Picture of a dog"> <!-- Relative path to image -->
+
+        <!-- The alt attribute specifies the text that will be in place if the image can't be loaded. -->
+
+        <!-- Four support image types are png, jpg, gif, svg.-->
+        <!-- png are good for diagrams and icons -->
+        <!-- jpg are good for photos -->
+        <!-- gif are good for animated images -->
+        <!-- svg are vector based images that can scale up/down by any amount without losing quality. Good for the same use cases of pngs. -->
+
+
+    </body>
+</html>
